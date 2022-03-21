@@ -1,6 +1,6 @@
 # personal_expenses
 
-Personal expenses app that will monitor the expenses in a week and i will practise responsiveness in flutter and adaptiveness
+Personal expenses app that will monitor the expenses in a week and in this app i practised responsiveness in flutter and adaptiveness to ios 
 
 
 ## Getting Started
