@@ -3,34 +3,34 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 
 class AdaptiveFlatButton extends StatelessWidget {
-  AdaptiveFlatButton(
-    this.text,
-    this.handler,
-  );
+  AdaptiveFlatButton(this.text, this.handler, {Key? key}) : super(key: key);
+
   final String text;
   final Function handler;
 
   @override
   Widget build(BuildContext context) {
-    return Platform.isIOS
-        ? CupertinoButton(
-            child: Text(
-              text,
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            onPressed: handler(),
-          )
-        : FlatButton(
-            textColor: Theme.of(context).primaryColor,
-            child: Text(
-              text,
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            onPressed: handler(),
-          );
+    if (Platform.isIOS) {
+      return CupertinoButton(
+        child: Text(
+          text,
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        onPressed: handler as void Function()?,
+      );
+    } else {
+      return FlatButton(
+        textColor: Theme.of(context).primaryColor,
+        child: Text(
+          text,
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        onPressed: handler as void Function()?,
+      );
+    }
   }
 }
