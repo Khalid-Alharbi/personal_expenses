@@ -1,6 +1,8 @@
 # personal_expenses
 
-A new Flutter project.
+Personal expenses app that will monitor the expenses in a week and i will practise responsiveness in flutter and adaptiveness
+
+
 
 ## Getting Started
 
