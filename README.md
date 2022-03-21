@@ -3,7 +3,6 @@
 Personal expenses app that will monitor the expenses in a week and i will practise responsiveness in flutter and adaptiveness
 
 
-
 ## Getting Started
 
 This project is a starting point for a Flutter application.
