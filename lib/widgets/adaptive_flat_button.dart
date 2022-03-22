@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 
 class AdaptiveFlatButton extends StatelessWidget {
-  AdaptiveFlatButton(this.text, this.handler, {Key? key}) : super(key: key);
+  const AdaptiveFlatButton(this.text, this.handler, {Key? key})
+      : super(key: key);
 
   final String text;
   final Function handler;
@@ -14,7 +15,7 @@ class AdaptiveFlatButton extends StatelessWidget {
       return CupertinoButton(
         child: Text(
           text,
-          style: TextStyle(
+          style: const TextStyle(
             fontWeight: FontWeight.bold,
           ),
         ),
@@ -25,7 +26,7 @@ class AdaptiveFlatButton extends StatelessWidget {
         textColor: Theme.of(context).primaryColor,
         child: Text(
           text,
-          style: TextStyle(
+          style: const TextStyle(
             fontWeight: FontWeight.bold,
           ),
         ),
