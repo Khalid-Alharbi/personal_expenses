@@ -3,6 +3,10 @@
 Personal expenses app that will monitor the expenses in a week and in this app i practised responsiveness in flutter and adaptiveness to ios 
 
 
+![](/repo_images/WhatsApp Image 2022-03-21 at 4.08.24 PM.jpeg)
+
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
