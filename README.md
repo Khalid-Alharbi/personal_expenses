@@ -4,6 +4,12 @@ Personal expenses app that will monitor the expenses in a week and in this app i
 
 
 ![](/repo_images/Add_TRXS.jpeg)
+![](/repo_images/no_TRXS.jpeg)
+![](/repo_images/no_TRXS_landscape.jpeg)
+![](/repo_images/TRXS_screen.jpeg)
+![](/repo_images/TRXS_screen_landscape_!chart.jpeg)
+![](/repo_images/TRXS_screen_landscape_chart.jpeg)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
